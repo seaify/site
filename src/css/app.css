@@ -17,6 +17,12 @@
       color: #262A3D;
       background-color: #F1CA22;
       margin-bottom: 0; }
+    .home header .join .icon_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 5px; }
     .home header .join input {
       color: #565758;
       padding: 5px; }
