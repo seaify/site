@@ -53,7 +53,7 @@
       font-size: 1.5rem; }
   .home .content .second_content {
     height: 500px;
-    padding: 40px 30px;
+    padding: 40px 50px;
     background-color: #FEFFFF; }
     .home .content .second_content .left_part {
       margin-top: 30px;
@@ -67,12 +67,12 @@
         background-color: #3C3D3E;
         color: #F8F9F9; }
   .home .content .third_content {
-    padding: 50px 30px;
+    padding: 50px 50px;
     background-color: #EAEBEC;
     display: flex; }
     .home .content .third_content .links {
       width: 48%;
-      margin-right: 20px;
+      margin-right: 50px;
       display: flex;
       flex-direction: column; }
       .home .content .third_content .links a.button {
@@ -91,7 +91,7 @@
         margin-bottom: 0; }
   .home .content .fourth_content {
     background-color: #F1CA22;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px; }
     .home .content .fourth_content img {

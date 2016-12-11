@@ -82,7 +82,7 @@
 
     .second_content {
       height: 500px;
-      padding: 40px 30px;
+      padding: 40px 50px;
       background-color: #FEFFFF;
 
       .left_part {
@@ -106,13 +106,13 @@
     }
 
     .third_content {
-      padding: 50px 30px;
+      padding: 50px 50px;
       background-color: #EAEBEC;
       display: flex;
 
       .links {
         width: 48%;
-        margin-right: 20px;
+        margin-right: 50px;
         display: flex;
         flex-direction: column;
         a.button {
@@ -141,7 +141,7 @@
 
     .fourth_content {
       background-color: #F1CA22;
-      padding-left: 30px;
+      padding-left: 50px;
       padding-top: 20px;
       padding-bottom: 20px;
       img {
