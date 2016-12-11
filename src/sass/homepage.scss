@@ -1,8 +1,13 @@
 .home {
   header {
-    height: 70px;
-    background-color: black;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3C3D3E;
     .menu {
+      li:last-child a {
+        padding-right: 0;
+      }
     }
 
     .join {
@@ -10,8 +15,14 @@
       display: flex;
 
       a.button {
+        color: #262A3D;
         background-color: #F1CA22;
         margin-bottom: 0;
+      }
+
+      input {
+        color: #565758;
+        padding: 5px;
       }
 
     }
@@ -19,6 +30,35 @@
 
   }
 
+  .content {
+    min-height: 100vh;
+    background-color: #78D7D4;
+    .first_content {
+      background-color: #76267B;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .second_content {
+      height: 500px;
+      padding: 40px 20px;
+      background-color: #FEFFFF;
+    }
+
+    .third_content {
+      padding: 50px 20px;
+      background-color: #EAEBEC;
+
+      .links {
+        width: 48%;
+        display: inline-block;
+        a.button {
+          display: block;
+        }
+      }
+    }
+  }
   .container {
     width: 900px;
     margin-left: auto;
