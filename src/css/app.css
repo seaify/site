@@ -1,6 +1,11 @@
 .home header {
   height: 70px;
   background-color: black; }
+  .home header .join {
+    display: flex; }
+    .home header .join a.button {
+      background-color: #F1CA22;
+      margin-bottom: 0; }
 
 .home .container {
   width: 900px;
