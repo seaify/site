@@ -1,0 +1,8 @@
+.home header {
+  height: 70px;
+  background-color: black; }
+
+.home .container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }

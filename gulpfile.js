@@ -10,6 +10,7 @@ gulp.task('styles', function() {
   console.log('style convert')
     gulp.src('src/sass/*.scss')
         .pipe(sass().on('error', sass.logError))
+        .pipe(concat('app.css'))
         .pipe(gulp.dest('src/css/'))
         .pipe(livereload());
 });
