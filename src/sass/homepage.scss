@@ -1,18 +1,30 @@
 .home {
   header {
-    height: 90px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     background-color: #3C3D3E;
     .menu {
-      li:last-child a {
-        padding-right: 0;
+
+      li:not(:first-child):not(:last-child) a {
+        margin-right: 3px;
+      }
+
+      li a {
+        color: #FFFFFF;
+        background-color: #000001;
+      }
+
+      li.active a {
+        color: #3E2C30;
+        background-color: #00ACA4;
       }
     }
 
     .join {
 
       display: flex;
+
+      margin-bottom: 30px;
 
       a.button {
         color: #262A3D;
@@ -23,6 +35,21 @@
       input {
         color: #565758;
         padding: 5px;
+
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color:    #464748;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color:    #464748;
+          opacity:  1;
+        }
+        &::-moz-placeholder { /* Mozilla Firefox 19+ */
+          color:    #464748;
+          opacity:  1;
+        }
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color:    #464748;
+        }
       }
 
     }
@@ -38,23 +65,57 @@
       text-align: center;
       padding-top: 40px;
       padding-bottom: 40px;
+
+      h3 {
+        color: #FEFEFF;
+        -webkit-text-stroke-width: 2.5px;
+      }
+
+      p {
+        color: #FEFEFF;
+        font-size: 1.5rem;
+      }
     }
 
     .second_content {
       height: 500px;
       padding: 40px 30px;
       background-color: #FEFFFF;
+
+      .left_part {
+        margin-top: 30px;
+        display: inline-block;
+        width: 45%;
+
+        h4 {
+          color: #414142;
+        }
+
+        p {
+          color: #727374;
+        }
+
+        a.button {
+          background-color: #3C3D3E;
+          color: #F8F9F9;
+        }
+      }
     }
 
     .third_content {
       padding: 50px 30px;
       background-color: #EAEBEC;
+      display: flex;
 
       .links {
         width: 48%;
         display: inline-block;
         a.button {
           display: block;
+          height: 100px;
+          img {
+            float: left;
+          }
         }
       }
     }
@@ -62,13 +123,22 @@
     .fourth_content {
       background-color: #F1CA22;
       padding-left: 30px;
-      margin-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      img {
+        border-radius: 50%;
+      }
       .donate_content {
         margin-left: 20px;
         display: inline-block;
         width: 45%;
       }
 
+    }
+
+    .empty {
+      height: 50px;
+      background-color: #FEFFFF;
     }
   }
   .container {
