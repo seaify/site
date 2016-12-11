@@ -116,8 +116,13 @@
         display: flex;
         flex-direction: column;
         a.button {
+          display: flex;
+          align-items: center;
           img {
             float: left;
+          }
+          span {
+            margin-left: 20%;
           }
         }
 

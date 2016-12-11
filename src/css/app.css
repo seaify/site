@@ -75,8 +75,13 @@
       margin-right: 20px;
       display: flex;
       flex-direction: column; }
-      .home .content .third_content .links a.button img {
-        float: left; }
+      .home .content .third_content .links a.button {
+        display: flex;
+        align-items: center; }
+        .home .content .third_content .links a.button img {
+          float: left; }
+        .home .content .third_content .links a.button span {
+          margin-left: 20%; }
       .home .content .third_content .links a.about {
         background-color: #AD1F66; }
       .home .content .third_content .links a.vision {
