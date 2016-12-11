@@ -112,7 +112,7 @@
 
       .links {
         width: 48%;
-        margin-right: 10px;
+        margin-right: 20px;
         display: flex;
         flex-direction: column;
         a.button {
@@ -129,6 +129,7 @@
         }
         a.mission {
           background-color: #4FA13F;
+          margin-bottom: 0;
         }
       }
     }
@@ -184,6 +185,7 @@
         &.active {
           color: #237A75;
         }
+
       }
     }
 
