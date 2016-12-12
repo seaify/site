@@ -89,7 +89,7 @@
     }
 
     .second_content {
-      height: 500px;
+      height: 600px;
       padding: 40px 50px;
       background-color: #FEFFFF;
 
@@ -123,27 +123,24 @@
         margin-right: 50px;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
 
         a.button {
           display: flex;
-          align-items: center;
+          background-color: #EAEBEC;
+          padding: 0;
+          position: relative;
           img {
             float: left;
           }
           span {
             position: absolute;
+            top: 48%;
             left: 28%;
           }
         }
 
-        a.about {
-          background-color: #AD1F66;
-        }
-        a.vision {
-          background-color: #0084BD;
-        }
         a.mission {
-          background-color: #4FA13F;
           margin-bottom: 0;
         }
       }
@@ -177,7 +174,7 @@
     }
   }
   .container {
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -258,6 +255,10 @@
       display: inline-block;
       img {
         margin-right: 10px;
+      }
+
+      .footer-logo {
+        margin-top: 10px;
       }
     }
   }
