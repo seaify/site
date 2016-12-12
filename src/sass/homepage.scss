@@ -123,6 +123,7 @@
         margin-right: 50px;
         display: flex;
         flex-direction: column;
+
         a.button {
           display: flex;
           align-items: center;
@@ -130,7 +131,8 @@
             float: left;
           }
           span {
-            margin-left: 20%;
+            position: absolute;
+            left: 28%;
           }
         }
 
@@ -195,6 +197,7 @@
       a {
         display: block;
         color: #E4E5E6;
+        font-size: 0.9rem;
         &.active {
           color: #237A75;
         }
@@ -206,7 +209,8 @@
       color: #FFFFFF;
     }
     p {
-        color: #6F7071;
+      color: #6F7071;
+      font-size: 0.8rem;
     }
 
     .news {

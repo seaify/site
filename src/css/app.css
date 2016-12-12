@@ -87,7 +87,8 @@
         .home .content .third_content .links a.button img {
           float: left; }
         .home .content .third_content .links a.button span {
-          margin-left: 20%; }
+          position: absolute;
+          left: 28%; }
       .home .content .third_content .links a.about {
         background-color: #AD1F66; }
       .home .content .third_content .links a.vision {
@@ -131,13 +132,15 @@
     width: 30%; }
     .home footer .footer-links a {
       display: block;
-      color: #E4E5E6; }
+      color: #E4E5E6;
+      font-size: 0.9rem; }
       .home footer .footer-links a.active {
         color: #237A75; }
   .home footer h4 {
     color: #FFFFFF; }
   .home footer p {
-    color: #6F7071; }
+    color: #6F7071;
+    font-size: 0.8rem; }
   .home footer .news {
     width: 22%;
     display: inline-block; }
