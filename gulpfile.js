@@ -1,10 +1,18 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
-
+var imagemin = require('gulp-imagemin');
 
 var livereload = require('gulp-livereload');
 
+
+gulp.task('image', function () {
+  
+  gulp.src('src/images/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/images'))
+  
+})
 
 gulp.task('styles', function() {
   console.log('style convert')
