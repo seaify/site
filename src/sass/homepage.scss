@@ -118,12 +118,16 @@
       background-color: #EAEBEC;
       display: flex;
 
+      & > img {
+        height: 399px;
+      }
+
       .links {
         width: 48%;
         margin-right: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
 
         a.button {
           display: flex;

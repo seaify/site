@@ -76,12 +76,14 @@
     padding: 50px 50px;
     background-color: #EAEBEC;
     display: flex; }
+    .home .content .third_content > img {
+      height: 399px; }
     .home .content .third_content .links {
       width: 48%;
       margin-right: 50px;
       display: flex;
       flex-direction: column;
-      justify-content: space-around; }
+      justify-content: space-between; }
       .home .content .third_content .links a.button {
         display: flex;
         background-color: #EAEBEC;
