@@ -1,3 +1,7 @@
+body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:first-child:not(.button){
+  font-family: "Raleway", "PingFang HK", "Microsoft YaHei", sans-serif;
+}
+
 .home {
   header {
     padding-top: 10px;
@@ -10,7 +14,11 @@
       }
 
       li a {
-        color: #FFFFFF;
+        font-size: 20px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1;
         background-color: #000001;
       }
 
@@ -27,9 +35,15 @@
       margin-bottom: 30px;
 
       a.button {
-        color: #262A3D;
         background-color: #F1CA22;
         margin-bottom: 0;
+          font-size: 18px;
+          font-family: "Raleway";
+          color: rgb(70, 70, 70);
+          font-weight: bold;
+          line-height: 1.611;
+          text-align: right;
+          z-index: 15;
       }
 
       .icon_container {
@@ -43,20 +57,25 @@
       input {
         color: #565758;
         padding: 5px;
+        font-family: "Raleway";
+        color: rgb(70, 70, 70);
+        font-weight: bold;
+        line-height: 1.611;
+        text-align: center;
 
         &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-          color:    #464748;
+          color: rgb(70, 70, 70);
         }
         &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-          color:    #464748;
+          color: rgb(70, 70, 70);
           opacity:  1;
         }
         &::-moz-placeholder { /* Mozilla Firefox 19+ */
-          color:    #464748;
+          color: rgb(70, 70, 70);
           opacity:  1;
         }
         &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-          color:    #464748;
+          color: rgb(70, 70, 70);
         }
       }
 
@@ -112,6 +131,9 @@
         }
       }
     }
+
+
+
 
     .third_content {
       padding: 50px 50px;

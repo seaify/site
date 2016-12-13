@@ -1,3 +1,6 @@
+body, button, .button, .top-bar-section ul li > a, .side-nav, .side-nav li.active > a:first-child:not(.button) {
+  font-family: "Raleway", "PingFang HK", "Microsoft YaHei", sans-serif; }
+
 .home header {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -5,7 +8,11 @@
   .home header .menu li:not(:first-child):not(:last-child) a {
     margin-right: 3px; }
   .home header .menu li a {
-    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: bold;
+    line-height: 1;
     background-color: #000001; }
   .home header .menu li.active a {
     color: #3E2C30;
@@ -14,9 +21,15 @@
     display: flex;
     margin-bottom: 30px; }
     .home header .join a.button {
-      color: #262A3D;
       background-color: #F1CA22;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      font-size: 18px;
+      font-family: "Raleway";
+      color: #464646;
+      font-weight: bold;
+      line-height: 1.611;
+      text-align: right;
+      z-index: 15; }
     .home header .join .icon_container {
       display: flex;
       justify-content: center;
@@ -25,21 +38,26 @@
       padding: 5px; }
     .home header .join input {
       color: #565758;
-      padding: 5px; }
+      padding: 5px;
+      font-family: "Raleway";
+      color: #464646;
+      font-weight: bold;
+      line-height: 1.611;
+      text-align: center; }
       .home header .join input::-webkit-input-placeholder {
         /* WebKit, Blink, Edge */
-        color: #464748; }
+        color: #464646; }
       .home header .join input:-moz-placeholder {
         /* Mozilla Firefox 4 to 18 */
-        color: #464748;
+        color: #464646;
         opacity: 1; }
       .home header .join input::-moz-placeholder {
         /* Mozilla Firefox 19+ */
-        color: #464748;
+        color: #464646;
         opacity: 1; }
       .home header .join input:-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        color: #464748; }
+        color: #464646; }
 
 .home .content {
   min-height: 100vh;
