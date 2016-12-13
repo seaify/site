@@ -1,5 +1,5 @@
-body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:first-child:not(.button){
-  font-family: "Raleway", "PingFang HK", "Microsoft YaHei", sans-serif;
+body {
+  font-family: "Raleway"
 }
 
 .home {
@@ -97,8 +97,12 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
       padding-bottom: 40px;
 
       h3 {
-        color: #FEFEFF;
-        -webkit-text-stroke-width: 2.5px;
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+        line-height: 0.817;
+        z-index: 60;
+        text-align: center;
+        //-webkit-text-stroke-width: 2.5px;
       }
 
       p {
@@ -118,7 +122,11 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
         width: 45%;
 
         h4 {
-          color: #414142;
+          color: rgb(70, 70, 70);
+          font-size: 50px;
+          font-weight: bold;
+          line-height: 1;
+          text-align: left;
         }
 
         p {
@@ -127,7 +135,13 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
 
         a.button {
           background-color: #3C3D3E;
-          color: #F8F9F9;
+          color: rgb(255, 255, 255);
+          font-size: 24px;
+
+          font-weight: bold;
+          line-height: 0.958;
+          text-align: center;
+
         }
       }
     }
@@ -163,6 +177,11 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
             position: absolute;
             top: 48%;
             left: 28%;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 0.675;
+
           }
         }
 
@@ -185,10 +204,27 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
         display: inline-block;
         width: 45%;
 
+        h3 {
+          color: rgb(70, 70, 70);
+          font-weight: bold;
+          line-height: 0.46;
+          font-size: 40px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 18px;
+          color: rgb(70, 70, 70);
+          line-height: 1.278;
+        }
+
         a.button {
-          color: #232426;
           background-color: #FEFFFF;
-          font-weight: 900;
+          font-size: 16px;
+          font-weight: bold;
+          color: rgb(70, 70, 70);
+          line-height: 1.15;
+          z-index: 55;
         }
       }
 
@@ -222,7 +258,7 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
         color: #E4E5E6;
         font-size: 0.9rem;
         &.active {
-          color: #237A75;
+          color: rgb(0, 181, 173);
         }
 
       }
@@ -234,13 +270,14 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
     p {
       color: #6F7071;
       font-size: 0.8rem;
+
     }
 
     .news {
       width: 22%;
       display: inline-block;
       .title {
-        color: #237A75;
+        color: rgb(0, 181, 173);
         margin-bottom: 0;
       }
 
@@ -293,6 +330,9 @@ body ,button, .button,.top-bar-section ul li>a,.side-nav,.side-nav li.active>a:f
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 13px;
+    color: rgb(87, 87, 86);
+    line-height: 2.231;
   }
 
 }
