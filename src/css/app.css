@@ -122,6 +122,8 @@ body {
       background-color: #4FA03E; }
       .home .content .third_content .mission .accordion-title:focus, .home .content .third_content .mission .accordion-title:hover {
         background-color: #4FA03E; }
+      .home .content .third_content .mission .accordion-content {
+        border: none !important; }
     .home .content .third_content .links {
       display: flex;
       flex-direction: column;

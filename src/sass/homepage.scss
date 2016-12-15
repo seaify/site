@@ -182,6 +182,10 @@ body {
         & .accordion-title:focus, & .accordion-title:hover {
           background-color: #4FA03E;
         }
+
+        .accordion-content {
+          border: none !important;
+        }
       }
 
       .links {
