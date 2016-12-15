@@ -1,14 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 body {
-  font-family: "Raleway";
-}
-
-h3, h4 {
-  font-family: "Raleway";
-}
-h3 {
-  font-weight: 700;
-}
+  font-family: "Raleway"; }
 
 .home header {
   padding-top: 10px;
@@ -28,7 +19,7 @@ h3 {
     background-color: #00ACA4; }
   .home header .join {
     display: flex;
-    margin-bottom: 57px; }
+    margin-bottom: 30px; }
     .home header .join a.button {
       background-color: #F1CA22;
       margin-bottom: 0;
@@ -36,7 +27,7 @@ h3 {
       font-family: "Raleway";
       color: #464646;
       font-weight: bold;
-      line-height: 0.611;
+      line-height: 1.611;
       text-align: right;
       z-index: 15; }
     .home header .join .icon_container {
@@ -102,8 +93,7 @@ h3 {
         line-height: 1;
         text-align: left; }
       .home .content .second_content .left_part p {
-        color: #727374;
-        font-size: 1.25rem;}
+        color: #727374; }
       .home .content .second_content .left_part a.button {
         background-color: #3C3D3E;
         color: white;
@@ -117,9 +107,22 @@ h3 {
     display: flex; }
     .home .content .third_content > img {
       height: 399px; }
+    .home .content .third_content ul {
+      width: 49%;
+      margin-right: 50px; }
+    .home .content .third_content .about {
+      background-color: #AE1F65; }
+      .home .content .third_content .about .accordion-title:focus, .home .content .third_content .about .accordion-title:hover {
+        background-color: #AE1F65; }
+    .home .content .third_content .vision {
+      background-color: #0084BC; }
+      .home .content .third_content .vision .accordion-title:focus, .home .content .third_content .vision .accordion-title:hover {
+        background-color: #0084BC; }
+    .home .content .third_content .mission {
+      background-color: #4FA03E; }
+      .home .content .third_content .mission .accordion-title:focus, .home .content .third_content .mission .accordion-title:hover {
+        background-color: #4FA03E; }
     .home .content .third_content .links {
-      width: 60%;
-      margin-right: 50px;
       display: flex;
       flex-direction: column;
       justify-content: space-between; }
@@ -132,7 +135,7 @@ h3 {
           float: left; }
         .home .content .third_content .links a.button span {
           position: absolute;
-          top: 42%;
+          top: 48%;
           left: 28%;
           font-size: 35px;
           color: white;

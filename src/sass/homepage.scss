@@ -158,9 +158,34 @@ body {
         height: 399px;
       }
 
-      .links {
-        width: 48%;
+      ul {
+        width: 49%;
         margin-right: 50px;
+      }
+
+      .about {
+        background-color: #AE1F65;
+        & .accordion-title:focus, & .accordion-title:hover {
+          background-color: #AE1F65;
+        }
+      }
+
+      .vision {
+        background-color: #0084BC;
+        & .accordion-title:focus, & .accordion-title:hover {
+          background-color: #0084BC;
+        }
+      }
+
+      .mission {
+        background-color: #4FA03E;
+        & .accordion-title:focus, & .accordion-title:hover {
+          background-color: #4FA03E;
+        }
+      }
+
+      .links {
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
