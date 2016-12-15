@@ -161,6 +161,25 @@ body {
       ul {
         width: 49%;
         margin-right: 50px;
+        a.accordion-title span{
+          font-size: 40px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          line-height: 0.675;
+          margin-left: 20px;
+          vertical-align: middle;
+        }
+        .About_101_Arts {
+
+          font-family: "Raleway";
+
+          text-align: left;
+          position: absolute;
+          left: 536.844px;
+          top: 1913.957px;
+          z-index: 63;
+        }
+
       }
 
       .about {

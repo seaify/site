@@ -110,6 +110,20 @@ body {
     .home .content .third_content ul {
       width: 49%;
       margin-right: 50px; }
+      .home .content .third_content ul a.accordion-title span {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        line-height: 0.675;
+        margin-left: 20px;
+        vertical-align: middle; }
+      .home .content .third_content ul .About_101_Arts {
+        font-family: "Raleway";
+        text-align: left;
+        position: absolute;
+        left: 536.844px;
+        top: 1913.957px;
+        z-index: 63; }
     .home .content .third_content .about {
       background-color: #AE1F65; }
       .home .content .third_content .about .accordion-title:focus, .home .content .third_content .about .accordion-title:hover {
