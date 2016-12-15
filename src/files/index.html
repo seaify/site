@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation Starter Template</title>
+    <title>101 Arts</title>
     <link rel="stylesheet" href="../css/foundation.min.css" />
     <link rel="stylesheet" href="../css/app.css" />
 </head>
@@ -17,30 +17,25 @@
 
                 <div class="clearfix">
                     <div class="join float-right">
-                        <a class="button" href="#">DONATE</a>
-                        <input placeholder="BECOME A MEMBER">
-                        <div class="icon_container">
-                            <img src="../images/search.png">
-                        </div>
-
+                        <a class="button scroll" data-target="#donate" href="#">DONATE</a>
                     </div>
 
                 </div>
                 <ul class="menu float-right">
                     <li class="active">
-                        <a>HOME</a>
+                        <a href="/">HOME</a>
                     </li>
                     <li>
-                        <a>WHAT WE DO</a>
+                        <a class="scroll" data-target="#main" href="#">WHAT WE DO</a>
                     </li>
                     <li>
-                        <a>FAQ</a>
+                        <a class="scroll" data-target="#main" href="#">FAQ</a>
                     </li>
                     <li>
-                        <a>NEWS</a>
+                        <a class="scroll" data-target="#main" href="#">NEWS</a>
                     </li>
                     <li>
-                        <a>CONTACT US</a>
+                        <a class="scroll" data-target="#footer" href="#">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -53,20 +48,20 @@
     <div class="content">
 
         <div class="container">
-            <img class="main_image" src="../images/main_image.png">
+            <img class="main_image" src="../images/main_image.jpg">
             <div class="first_content">
                 <h3 class="">101 ARTS</h3>
                 <p>"Attracting arts to your hearts"</p>
 
             </div>
+
+            <a id="main" name="main"></a>
             <div class="second_content">
                 <div class="left_part float-left">
 
                     <h4>Welcome to 101 Arts</h4>
-                    <p>Welcome to 101 Arts We are a non-profitable CIC organisation based in London, delivering a wide ran
-                        </p>
-                    <a class="button" href="#">BUTTON</a>
-
+                    <p>Welcome to 101 Arts We are a non-profitable CIC organisation based in London, delivering a wide range of arts projects. Engaging people from diverse backgrounds in creative activities; designed to equip the participants with transferable and artistic skillswhile promoting personal and social wellbeing and development.</p>
+                    <!-- a class="button" href="#">MORE</a -->
                 </div>
                 <img class="float-right" src="../images/second_content.png">
             </div>
@@ -90,11 +85,16 @@
 
             </div>
 
+            <a id="donate" name="donate"></a>
             <div class="fourth_content">
                 <img class="" src="../images/donate.png">
                 <div class="donate_content">
                     <h3>DONATE</h3>
-                    <p>xeeooooo</p>
+                    <p>101 Arts CIC<br/>
+                    Sort Code: 20-25-19<br/>
+                    Account No: 93102602<br/>
+                    Barclays Bank
+                    </p>
                     <a class="button" href="#">DONATE</a>
                 </div>
             </div>
@@ -105,6 +105,7 @@
 
     </div>
 
+    <a id="footer" name="footer"></a>
     <footer>
         <div class="container">
             <div class="footer-links">
@@ -131,7 +132,6 @@
 
             <div class="update">
                 <h4>Keep Up-to-Date</h4>
-                <p>efeoe</p>
                 <input placeholder="Your Name">
                 <input placeholder="Email Address">
                 <a class="button float-right" href="#">SUBSCRIBE</a>
@@ -153,6 +153,15 @@
 <script src="../js/foundation.min.js"></script>
 <script>
   $(document).foundation();
+  $(function(){
+    $(".scroll").click(function(){
+      href = $(this).data('target');
+      $("html,body").animate({
+        scrollTop:$(href).offset().top
+      },"500");
+      return false
+    });
+  });
 </script>
 
 </body>
