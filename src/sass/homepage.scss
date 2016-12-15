@@ -155,12 +155,13 @@ body {
       display: flex;
 
       & > img {
-        height: 399px;
+        height: 423px;;
       }
 
       ul {
         width: 49%;
         margin-right: 50px;
+        min-height: 423px;
         a.accordion-title span{
           font-size: 40px;
           color: rgb(255, 255, 255);

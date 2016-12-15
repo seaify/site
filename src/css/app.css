@@ -106,10 +106,11 @@ body {
     background-color: #EAEBEC;
     display: flex; }
     .home .content .third_content > img {
-      height: 399px; }
+      height: 423px; }
     .home .content .third_content ul {
       width: 49%;
-      margin-right: 50px; }
+      margin-right: 50px;
+      min-height: 423px; }
       .home .content .third_content ul a.accordion-title span {
         font-size: 40px;
         color: white;
