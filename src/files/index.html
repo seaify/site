@@ -7,6 +7,7 @@
     <title>101 Arts</title>
     <link rel="stylesheet" href="../css/foundation.min.css" />
     <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/overrides.css" />
 </head>
 <body class="home">
     <header>
@@ -29,10 +30,13 @@
                         <a class="scroll" data-target="#main" href="#">WHAT WE DO</a>
                     </li>
                     <li>
-                        <a class="scroll" data-target="#main" href="#">FAQ</a>
+                        <a class="scroll" data-target="#about" href="#">ABOUT</a>
                     </li>
                     <li>
-                        <a class="scroll" data-target="#main" href="#">NEWS</a>
+                        <a class="scroll" data-target="#about" href="#">OUR MISSION</a>
+                    </li>
+                    <li>
+                        <a class="scroll" data-target="#about" href="#">OUR VISION</a>
                     </li>
                     <li>
                         <a class="scroll" data-target="#footer" href="#">CONTACT US</a>
@@ -66,6 +70,7 @@
                 <img class="float-right" src="../images/second_content.png">
             </div>
 
+            <a id="about" name="about"></a>
             <div class="third_content">
                 <ul class="accordion" data-accordion>
                     <li class="about accordion-item " data-accordion-item>
@@ -74,7 +79,10 @@
                             <span>About 101 Arts</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            I would start in the open state, due to using the `is-active` state class.
+                            Here at 101 Arts we endeavour to cultivate community enagagement and social action by collaborating with relevant oranisations, community members and volunteers sharing our vision to portay the importance in having a creative outlet for all.
+                            <br/>
+                            <br/>
+                            Where participants enrich their wellbeing, experience a sense of belonging, explore new ideas and address their issues - through extensive range of activities presented in many different art forms, including visual arts drama, dance, music, film, photography.
                         </div>
                     </li>
                     <li class="vision accordion-item " data-accordion-item>
@@ -83,7 +91,10 @@
                             <span>Our Vision</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            I would start in the open state, due to using the `is-active` state class.
+                            To guide each person engaging in creative activity towards personal exploration and self expression, stimulate emotional wellness and self confidence, promote community cohesion and team work.
+                            <br/>
+                            <br/>
+                            As we believe in doing so - makes a positive impact on an individual and on the community as a whole.
                         </div>
                     </li>
                     <li class="mission accordion-item " data-accordion-item>
@@ -92,7 +103,10 @@
                             <span>Our Mission</span>
                         </a>
                         <div class="accordion-content" data-tab-content>
-                            I would start in the open state, due to using the `is-active` state class.
+                            To provide a creative outlet - where people could realise themselves in many forms - using art tools as a vessel. 
+                            <br/>
+                            <br/>
+                            We acheive our mission by organising creative workshops led by industry professionals compassing a wide array of art forms.
                         </div>
                     </li>
                 </ul>
@@ -111,7 +125,7 @@
                     Account No: 93102602<br/>
                     Barclays Bank
                     </p>
-                    <a class="button" href="#">DONATE</a>
+                    <!-- a class="button" href="#">DONATE</a -->
                 </div>
             </div>
 
@@ -125,25 +139,20 @@
     <footer>
         <div class="container">
             <div class="footer-links">
-
                 <a class="active" href="#">Home</a>
-                <a class="" href="#">What we do</a>
-                <a class="" href="#">Become a Member</a>
-                <a class="" href="#">Donate</a>
-                <a class="" href="#">Frequently Asked Questions</a>
-                <a class="" href="#">News</a>
-                <a class="" href="#">Contact us</a>
+                <a class="scroll" href="#main">What we do</a>
+                <a class="scroll" href="#about">About</a>
+                <a class="scroll" href="#about">Our Mission</a>
+                <a class="scroll" href="#about">Our Vision</a>
+                <a class="scroll" href="#donate">Donate</a>
                 <a class="" href="#">Privacy Policy</a>
                 <a class="" href="#">Terms & Conditions</a>
             </div>
 
             <div class="news">
-                <h4>Latest News</h4>
-                <p class="title">News Post Heading</p.>
-                <p>25 oct 2016</p>
-                <p>
-                    today is today is
-                </p>
+                <h4>Contact Us</h4>
+                <p>101 Arts CIC<br/>Hale House Unit 5<br/>296a Green Lanes<br/>Palmers Green<<br/>N13 5TP<br/>
+                <a href="mailto:info@101arts.co.uk">info@101arts.co.uk</a></p>
             </div>
 
             <div class="update">
@@ -155,15 +164,14 @@
             <div class="social">
                 <h4>Follow Us!</h4>
                 <img src="../images/social_facebook.png">
-                <img class="twitter" src="../images/social_twitter.png">
+                <!-- img class="twitter" src="../images/social_twitter.png"-->
                 <img class="footer-logo" src="../images/footer_logo.png">
             </div>
-
         </div>
-
     </footer>
     <div class="copyright">
-        <p>@copyright Website by BMCD</p>
+        <p>&copy; 101 Arts CIC<br/>
+        Website by <a href="http://bmcd.co/" target="_blank">BMCD</a></p>
     </div>
     <script src="../js/jquery-3.1.1.js"></script>
     <script src="../js/foundation.min.js"></script>
