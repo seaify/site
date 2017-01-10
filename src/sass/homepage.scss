@@ -1,5 +1,16 @@
 
+@media only screen and (max-width: 950px) {
+  #responsive-menu ul li {
+    display: block;
+  }
+}
+
 .home {
+
+
+
+
+
   header {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -115,7 +126,6 @@
       .left_part {
         margin-top: 30px;
         display: inline-block;
-        width: 45%;
 
         h4 {
           color: rgb(70, 70, 70);
@@ -143,17 +153,13 @@
     }
 
     .third_content {
-      padding: 50px 50px;
       background-color: #EAEBEC;
-      display: flex;
 
       & > img {
         height: 423px;;
       }
 
       ul {
-        width: 57%;
-        margin-right: 50px;
         min-height: 423px;
         a.accordion-title span{
           font-size: 40px;
@@ -235,18 +241,19 @@
 
     .fourth_content {
       background-color: #F1CA22;
-      padding-left: 50px;
       padding-top: 20px;
       padding-bottom: 20px;
-      display: flex;
-      align-items: center;
       img {
         border-radius: 50%;
       }
+      .large-6 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
       .donate_content {
-        margin-left: 30px;
-        display: inline-block;
-        width: 45%;
+
+        margin-top: 30px;
 
         h3 {
           color: rgb(70, 70, 70);
@@ -280,7 +287,6 @@
     }
   }
   .container {
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
