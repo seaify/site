@@ -57,7 +57,6 @@
         color: #464646; }
 
 .home .content {
-  min-height: 100vh;
   background-color: #78D7D4; }
   .home .content img.main_image {
     width: 100%; }
