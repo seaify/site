@@ -263,7 +263,7 @@
         border-radius: 50%;
       }
       @media only screen and (max-width: 950px) {
-        .large-6 {
+        .large-3 {
           display: flex;
           align-items: center;
           flex-direction: column;
@@ -418,12 +418,18 @@
 @media only screen and (max-width: 950px) {
   #responsive-menu ul {
     margin-top: 1rem;
+    margin-left: 1rem;
     background-color: #3C3D3E;
     li {
       display: block;
       a {
       }
     }
+  }
+
+  .accordion-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .top-bar {
@@ -437,7 +443,7 @@
 
   .top-bar .menu-icon{
     margin-top: 1rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
     right: 0;
     top: 0;
     position: absolute;
