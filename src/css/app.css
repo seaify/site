@@ -160,7 +160,9 @@
     background-color: #F1CA22;
     padding-left: 50px;
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center; }
     .home .content .fourth_content img {
       border-radius: 50%; }
     .home .content .fourth_content .donate_content {
