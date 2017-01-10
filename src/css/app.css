@@ -105,7 +105,7 @@
     .home .content .third_content > img {
       height: 423px; }
     .home .content .third_content ul {
-      width: 57%;
+      width: 49%;
       margin-right: 50px;
       min-height: 423px; }
       .home .content .third_content ul a.accordion-title span {
@@ -261,3 +261,7 @@
   font-size: 13px;
   color: #575756;
   line-height: 2.231; }
+
+.policy_content {
+  padding: 40px 50px;
+  background-color: #FEFFFF; }

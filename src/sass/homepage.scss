@@ -1,6 +1,3 @@
-body {
-  font-family: "Raleway"
-}
 
 .home {
   header {
@@ -32,7 +29,7 @@ body {
 
       display: flex;
 
-      margin-bottom: 30px;
+      margin-bottom: 57px;
 
       a.button {
         background-color: #F1CA22;
@@ -41,7 +38,7 @@ body {
           font-family: "Raleway";
           color: rgb(70, 70, 70);
           font-weight: bold;
-          line-height: 1.611;
+          line-height: 0.611;
           text-align: right;
           z-index: 15;
       }
@@ -384,4 +381,9 @@ body {
     line-height: 2.231;
   }
 
+}
+
+.policy_content {
+  padding: 40px 50px;
+  background-color: #FEFFFF;
 }
