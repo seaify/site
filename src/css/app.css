@@ -170,14 +170,22 @@
     background-color: #F1CA22;
     padding-top: 20px;
     padding-bottom: 20px; }
+    @media only screen and (min-width: 960px) {
+      .home .content .fourth_content {
+        padding-left: 50px; } }
     .home .content .fourth_content img {
       border-radius: 50%; }
-    .home .content .fourth_content .large-6 {
-      display: flex;
-      align-items: center;
-      flex-direction: column; }
+    @media only screen and (max-width: 950px) {
+      .home .content .fourth_content .large-6 {
+        display: flex;
+        align-items: center;
+        flex-direction: column; } }
     .home .content .fourth_content .donate_content {
       margin-top: 30px; }
+      @media only screen and (min-width: 960px) {
+        .home .content .fourth_content .donate_content {
+          float: left;
+          clear: inherit; } }
       .home .content .fourth_content .donate_content h3 {
         color: #464646;
         font-weight: bold;
