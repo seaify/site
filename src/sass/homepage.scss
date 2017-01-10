@@ -1,15 +1,4 @@
-
-@media only screen and (max-width: 950px) {
-  #responsive-menu ul li {
-    display: block;
-  }
-}
-
 .home {
-
-
-
-
 
   header {
     padding-top: 10px;
@@ -17,8 +6,10 @@
     background-color: #3C3D3E;
     .menu {
 
-      li:not(:first-child):not(:last-child) a {
-        margin-right: 3px;
+      @media only screen and (min-width: 960px) {
+        li:not(:first-child):not(:last-child) a {
+          margin-right: 3px;
+        }
       }
 
       li a {
@@ -45,13 +36,13 @@
       a.button {
         background-color: #F1CA22;
         margin-bottom: 0;
-          font-size: 18px;
-          font-family: "Raleway";
-          color: rgb(70, 70, 70);
-          font-weight: bold;
-          line-height: 0.611;
-          text-align: right;
-          z-index: 15;
+        font-size: 18px;
+        font-family: "Raleway";
+        color: rgb(70, 70, 70);
+        font-weight: bold;
+        line-height: 0.611;
+        text-align: right;
+        z-index: 15;
       }
 
       .icon_container {
@@ -391,3 +382,31 @@
   padding: 40px 50px;
   background-color: #FEFFFF;
 }
+
+@media only screen and (max-width: 950px) {
+  #responsive-menu ul {
+    background-color: black;
+    li {
+      display: block;
+      a {
+      }
+    }
+  }
+
+  .top-bar {
+    padding: 0;
+  }
+
+  .top-bar .menu-icon{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  .home header {
+    padding-top: 0;
+  }
+}
+
