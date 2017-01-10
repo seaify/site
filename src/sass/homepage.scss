@@ -1,7 +1,13 @@
 .home {
 
+  .top-bar {
+    background-color: #3C3D3E;
+    ul {
+      background-color: #3C3D3E;
+    }
+  }
+
   header {
-    padding-top: 10px;
     padding-bottom: 20px;
     background-color: #3C3D3E;
     .menu {
@@ -18,7 +24,9 @@
         color: rgb(255, 255, 255);
         font-weight: bold;
         line-height: 1;
-        background-color: #000001;
+        @media only screen and (min-width: 960px) {
+          background-color: #000001;
+        }
       }
 
       li.active a {
@@ -110,7 +118,6 @@
     }
 
     .second_content {
-      height: 600px;
       padding: 40px 50px;
       background-color: #FEFFFF;
 
@@ -144,10 +151,23 @@
     }
 
     .third_content {
+
+      @media only screen and (min-width: 960px) {
+        padding: 50px 50px;
+        display: flex;
+      }
+
       background-color: #EAEBEC;
 
-      & > img {
+      .large-6 > img {
         height: 423px;;
+        float: right;
+      }
+
+      .left-part {
+        @media only screen and (min-width: 960px) {
+          width: 66%;
+        }
       }
 
       ul {
@@ -195,6 +215,7 @@
 
         .accordion-content {
           border: none !important;
+          padding-right: 2rem;
         }
       }
 
@@ -385,7 +406,8 @@
 
 @media only screen and (max-width: 950px) {
   #responsive-menu ul {
-    background-color: black;
+    margin-top: 1rem;
+    background-color: #3C3D3E;
     li {
       display: block;
       a {
@@ -395,11 +417,16 @@
 
   .top-bar {
     padding: 0;
+    background-color: #3C3D3E;
+  }
+
+  .top-bar-title img {
+    margin-left: 1rem;
   }
 
   .top-bar .menu-icon{
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     right: 0;
     top: 0;
     position: absolute;
@@ -407,6 +434,10 @@
 
   .home header {
     padding-top: 0;
+  }
+
+  .home .content .third_content ul a.accordion-title span {
+    font-size: 1.5rem;
   }
 }
 

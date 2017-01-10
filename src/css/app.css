@@ -1,5 +1,9 @@
+.home .top-bar {
+  background-color: #3C3D3E; }
+  .home .top-bar ul {
+    background-color: #3C3D3E; }
+
 .home header {
-  padding-top: 10px;
   padding-bottom: 20px;
   background-color: #3C3D3E; }
   @media only screen and (min-width: 960px) {
@@ -10,8 +14,10 @@
     font-family: "Raleway";
     color: white;
     font-weight: bold;
-    line-height: 1;
-    background-color: #000001; }
+    line-height: 1; }
+    @media only screen and (min-width: 960px) {
+      .home header .menu li a {
+        background-color: #000001; } }
   .home header .menu li.active a {
     color: #3E2C30;
     background-color: #00ACA4; }
@@ -76,7 +82,6 @@
       color: #FEFEFF;
       font-size: 1.5rem; }
   .home .content .second_content {
-    height: 600px;
     padding: 40px 50px;
     background-color: #FEFFFF; }
     .home .content .second_content .left_part {
@@ -99,8 +104,16 @@
         text-align: center; }
   .home .content .third_content {
     background-color: #EAEBEC; }
-    .home .content .third_content > img {
-      height: 423px; }
+    @media only screen and (min-width: 960px) {
+      .home .content .third_content {
+        padding: 50px 50px;
+        display: flex; } }
+    .home .content .third_content .large-6 > img {
+      height: 423px;
+      float: right; }
+    @media only screen and (min-width: 960px) {
+      .home .content .third_content .left-part {
+        width: 66%; } }
     .home .content .third_content ul {
       min-height: 423px; }
       .home .content .third_content ul a.accordion-title span {
@@ -130,7 +143,8 @@
       .home .content .third_content .mission .accordion-title:focus, .home .content .third_content .mission .accordion-title:hover {
         background-color: #4FA03E; }
       .home .content .third_content .mission .accordion-content {
-        border: none !important; }
+        border: none !important;
+        padding-right: 2rem; }
     .home .content .third_content .links {
       display: flex;
       flex-direction: column;
@@ -263,16 +277,22 @@
 
 @media only screen and (max-width: 950px) {
   #responsive-menu ul {
-    background-color: black; }
+    margin-top: 1rem;
+    background-color: #3C3D3E; }
     #responsive-menu ul li {
       display: block; }
   .top-bar {
-    padding: 0; }
+    padding: 0;
+    background-color: #3C3D3E; }
+  .top-bar-title img {
+    margin-left: 1rem; }
   .top-bar .menu-icon {
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     right: 0;
     top: 0;
     position: absolute; }
   .home header {
-    padding-top: 0; } }
+    padding-top: 0; }
+  .home .content .third_content ul a.accordion-title span {
+    font-size: 1.5rem; } }
