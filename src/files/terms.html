@@ -10,48 +10,58 @@
     <link rel="stylesheet" href="../css/overrides.css" />
 </head>
 <body class="home">
-    <header>
-        <div class="container clearfix">
+<header>
+    <div class="row container clearfix">
 
-            <img class="float-left" src="../images/arts101_header.png">
-            <div class="float-right">
 
-                <div class="clearfix">
-                    <div class="join float-right">
-                        <a class="button scroll" data-target="#donate" href="#">DONATE</a>
+        <div class="top-bar">
+            <div class="top-bar-title">
+    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon dark" type="button" data-toggle></button>
+    </span>
+                <img class="float-left" src="../images/arts101_header.png"/>
+            </div>
+            <div id="responsive-menu">
+                <div class="top-bar-right">
+                    <div class="clearfix">
+
+                        <div class="show-for-medium join float-right">
+                            <a class="button scroll" data-target="#donate" href="#">DONATE</a>
+                        </div>
                     </div>
 
+                    <ul class="dropdown menu " data-dropdown-menu>
+                        <li class="active">
+                            <a href="/">HOME</a>
+                        </li>
+                        <li>
+                            <a class="scroll" data-target="#main" href="#">WHAT WE DO</a>
+                        </li>
+                        <li>
+                            <a class="scroll" data-target="#about" href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a class="scroll" data-target="#about" href="#">OUR MISSION</a>
+                        </li>
+                        <li>
+                            <a class="scroll" data-target="#about" href="#">OUR VISION</a>
+                        </li>
+                        <li>
+                            <a class="scroll" data-target="#footer" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="menu float-right">
-                    <li class="active">
-                        <a href="/">HOME</a>
-                    </li>
-                    <li>
-                        <a class="scroll" data-target="#main" href="#">WHAT WE DO</a>
-                    </li>
-                    <li>
-                        <a class="scroll" data-target="#about" href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="scroll" data-target="#about" href="#">OUR MISSION</a>
-                    </li>
-                    <li>
-                        <a class="scroll" data-target="#about" href="#">OUR VISION</a>
-                    </li>
-                    <li>
-                        <a class="scroll" data-target="#footer" href="#">CONTACT US</a>
-                    </li>
-                </ul>
             </div>
-
         </div>
 
 
-    </header>
+    </div>
 
+
+</header>
     <div class="content">
 
-        <div class="container">
+        <div class="container row">
             <div class="policy_content">
 
                     <h3>Terms and Conditions: 11</h3>
@@ -86,8 +96,8 @@
     </div>
 
     <a id="footer" name="footer"></a>
-    <footer>
-        <div class="container">
+    <footer class="show-for-medium">
+        <div class="container row">
             <div class="footer-links">
                 <a class="active" href="#">Home</a>
                 <a class="scroll" href="#main">What we do</a>
